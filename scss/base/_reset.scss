@@ -1,0 +1,14 @@
+@use "../utils/variables" as v;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: v.$font-main;
+  background: v.$bg-clr;
+  color: v.$text-clr;
+}

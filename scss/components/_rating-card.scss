@@ -1,7 +1,10 @@
+@use "../utils/variables" as v;
+
 .attribution {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-align: center;
+  padding: 1.5rem;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: v.$ftr-clr;
 }

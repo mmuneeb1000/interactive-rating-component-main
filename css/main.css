@@ -1,6 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+  background: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+.container {
+  width: 460px;
+  height: 500px;
+  padding: 30px;
+  margin: auto;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 24px;
+}
+
+.rating-state,
+.thank-you-state {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .attribution {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-align: center;
+  padding: 1.5rem;
 }
 
 .attribution a {

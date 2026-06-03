@@ -1,0 +1,17 @@
+@use "../utils/variables" as v;
+.container {
+  width: 460px;
+  height: 500px;
+  padding: 30px;
+  margin: auto;
+  background-color: v.$card-clr;
+  border-radius: v.$border-radius;
+}
+
+.rating-state,
+.thank-you-state {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

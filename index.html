@@ -21,39 +21,43 @@
     <main>
       <!-- Rating State -->
       <section class="rating-state">
-        <form id="rating-form">
-          <img src="images/icon-star.svg" alt="" />
+        <div class="container">
+          <form id="rating-form">
+            <img src="images/icon-star.svg" alt="" />
 
-          <h1>How did we do?</h1>
+            <h1>How did we do?</h1>
 
-          <p>
-            Please let us know how we did with your support request. All
-            feedback is appreciated to help us improve our offering!
-          </p>
-          <fieldset aria-label="Rate our service from 1 to 5">
-            <legend>Rating</legend>
-            <label><input type="radio" name="rating" value="1" /> 1</label>
-            <label><input type="radio" name="rating" value="2" /> 2</label>
-            <label><input type="radio" name="rating" value="3" /> 3</label>
-            <label><input type="radio" name="rating" value="4" /> 4</label>
-            <label><input type="radio" name="rating" value="5" /> 5</label>
-          </fieldset>
-          <button type="submit">Submit</button>
-        </form>
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+            <fieldset aria-label="Rate our service from 1 to 5">
+              <legend>Rating</legend>
+              <label><input type="radio" name="rating" value="1" /> 1</label>
+              <label><input type="radio" name="rating" value="2" /> 2</label>
+              <label><input type="radio" name="rating" value="3" /> 3</label>
+              <label><input type="radio" name="rating" value="4" /> 4</label>
+              <label><input type="radio" name="rating" value="5" /> 5</label>
+            </fieldset>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
       </section>
       <!-- Thank You State -->
       <section class="thank-you-state" hidden></section>
+        <div class="container">
 
-      <img src="images/illustration-thank-you.svg" alt="" />
-      <p>
-        You selected <span id="selected-rating" aria-live="polite"></span> out
-        of 5
-      </p>
-      <h2>Thank you!</h2>
-      <p>
-        We appreciate you taking the time to give a rating. If you ever need
-        more support, don’t hesitate to get in touch!
-      </p>
+          <img src="images/illustration-thank-you.svg" alt="" />
+          <p>
+            You selected <span id="selected-rating" aria-live="polite"></span> out
+            of 5
+          </p>
+          <h2>Thank you!</h2>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
       </section>
     </main>
 
