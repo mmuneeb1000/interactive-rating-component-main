@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    
+  </head>
+  <body>
+    <main>
+      <!-- Rating State -->
+      <section class="rating-state">
+        <form id="rating-form">
+          <img src="images/icon-star.svg" alt="" />
+
+          <h1>How did we do?</h1>
+
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <fieldset aria-label="Rate our service from 1 to 5">
+            <legend>Rating</legend>
+            <label><input type="radio" name="rating" value="1" /> 1</label>
+            <label><input type="radio" name="rating" value="2" /> 2</label>
+            <label><input type="radio" name="rating" value="3" /> 3</label>
+            <label><input type="radio" name="rating" value="4" /> 4</label>
+            <label><input type="radio" name="rating" value="5" /> 5</label>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <!-- Thank You State -->
+      <section class="thank-you-state" hidden></section>
+
+      <img src="images/illustration-thank-you.svg" alt="" />
+      <p>
+        You selected <span id="selected-rating" aria-live="polite"></span> out
+        of 5
+      </p>
+      <h2>Thank you!</h2>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </footer>
+  </body>
+</html>
