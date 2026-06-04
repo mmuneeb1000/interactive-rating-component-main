@@ -1,1 +1,14 @@
 @use "../utils/variables" as v;
+h1,
+h2 {
+  color: v.$text-clr;
+}
+
+p {
+  color: v.$muted-clr;
+  padding-bottom: 1rem;
+  font-size: 15px;
+}
+.legend-text {
+  display: none;
+}

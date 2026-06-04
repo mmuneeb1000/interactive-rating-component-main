@@ -1,5 +1,65 @@
 @use "../utils/variables" as v;
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: v.$input-clr;
+}
+
+.rating {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  label {
+    width: 3rem;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+
+    border-radius: 50%;
+    cursor: pointer;
+
+    background: hsl(213, 19%, 24%);
+    color: v.$muted-clr;
+
+    transition: 0.2s;
+  }
+
+  label:hover {
+    background: v.$accent-clr;
+    color: white;
+  }
+  label.active {
+    background: white;
+    color: v.$bg-clr;
+  }
+
+  input:checked + label {
+    background: white;
+    color: v.$bg-clr;
+  }
+
+  input:focus-visible + label {
+    outline: 2px solid v.$accent-clr;
+    outline-offset: 3px;
+  }
+}
+.result-img {
+  padding: 1rem;
+}
 .attribution {
   font-size: 0.7rem;
   text-align: center;

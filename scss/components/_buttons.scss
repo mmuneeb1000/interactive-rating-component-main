@@ -1,1 +1,13 @@
 @use "../utils/variables" as v;
+.submit-btn {
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 30px;
+  color: v.$bg-clr;
+  font-weight: v.$font-semibold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: v.$accent-clr;
+  border: none;
+}
