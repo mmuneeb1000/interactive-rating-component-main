@@ -84,6 +84,7 @@ p {
   aspect-ratio: 1;
   display: grid;
   place-items: center;
+  font-weight: 700;
   border-radius: 50%;
   cursor: pointer;
   background: hsl(213, 19%, 24%);
