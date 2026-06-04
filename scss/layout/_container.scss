@@ -4,7 +4,7 @@
   height: 420px;
   padding: 30px;
   margin: auto;
-  background-color: v.$card-clr;
+  background: linear-gradient(to bottom, lighten(v.$card-clr, 4%), v.$card-clr);
   border-radius: v.$border-radius;
 }
 
@@ -24,4 +24,7 @@
   flex-direction: column;
   background-color: v.$card-clr;
   border-radius: v.$border-radius;
+}
+.thank-you-state {
+  display: none;
 }

@@ -42,12 +42,8 @@
     background: v.$accent-clr;
     color: white;
   }
-  label.active {
-    background: white;
-    color: v.$bg-clr;
-  }
 
-  input:checked + label {
+  label:has(input:checked) {
     background: white;
     color: v.$bg-clr;
   }
@@ -56,6 +52,14 @@
     outline: 2px solid v.$accent-clr;
     outline-offset: 3px;
   }
+}
+.result-text {
+  width: 200px;
+  margin: 0 auto;
+  padding: 6px 20px;
+  color: v.$accent-clr;
+  background-color: v.$bg-clr;
+  border-radius: 20px;
 }
 .result-img {
   padding: 1rem;
