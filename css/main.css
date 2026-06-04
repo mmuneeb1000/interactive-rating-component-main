@@ -26,8 +26,8 @@ p {
 }
 
 .rating-container {
-  width: 420px;
-  height: 420px;
+  width: 380px;
+  height: 380px;
   padding: 30px;
   margin: auto;
   background: linear-gradient(to bottom, hsl(212, 15%, 21%), hsl(212, 15%, 17%));
@@ -43,7 +43,7 @@ p {
 }
 
 .result-container {
-  width: 420px;
+  width: 380px;
   height: 380px;
   padding: 24px;
   margin: auto;

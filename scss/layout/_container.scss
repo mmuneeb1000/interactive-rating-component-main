@@ -1,7 +1,7 @@
 @use "../utils/variables" as v;
 .rating-container {
-  width: 420px;
-  height: 420px;
+  width: 380px;
+  height: 380px;
   padding: 30px;
   margin: auto;
   background: linear-gradient(to bottom, lighten(v.$card-clr, 4%), v.$card-clr);
@@ -16,7 +16,7 @@
   justify-content: center;
 }
 .result-container {
-  width: 420px;
+  width: 380px;
   height: 380px;
   padding: 24px;
   margin: auto;
