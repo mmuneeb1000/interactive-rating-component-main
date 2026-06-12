@@ -1,10 +1,13 @@
 @use "../utils/variables" as v;
-.rating-container {
-  width: 380px;
-  height: 380px;
-  padding: 30px;
+main {
+  width: 360px;
+  height: 100vh;
   margin: auto;
-  background: linear-gradient(to bottom, lighten(v.$card-clr, 4%), v.$card-clr);
+}
+
+.rating-container {
+  padding: 30px;
+  background: v.$card-clr;
   border-radius: v.$border-radius;
 }
 
@@ -17,7 +20,7 @@
 }
 .result-container {
   width: 380px;
-  height: 380px;
+  height: 360px;
   padding: 24px;
   margin: auto;
   text-align: center;
@@ -27,4 +30,14 @@
 }
 .thank-you-state {
   display: none;
+}
+@media (max-width: 375px) {
+  main {
+    width: 100%;
+    display: flex;
+    padding: 12px;
+  }
+  .result-container {
+    width: 100%;
+  }
 }

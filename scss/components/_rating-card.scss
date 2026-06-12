@@ -13,7 +13,7 @@
 .rating {
   border: 0;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
 
@@ -71,4 +71,9 @@
 }
 .attribution a {
   color: v.$ftr-clr;
+}
+@media (max-width: 375px) {
+  .rating label {
+    width: 2.25rem;
+  }
 }

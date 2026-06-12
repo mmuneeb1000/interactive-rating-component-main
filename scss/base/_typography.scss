@@ -2,12 +2,15 @@
 h1,
 h2 {
   color: v.$text-clr;
+  margin: 1rem 0;
 }
 
 p {
   color: v.$muted-clr;
   font-size: 15px;
+  margin: 1rem 0;
 }
+
 .legend-text {
   display: none;
 }
